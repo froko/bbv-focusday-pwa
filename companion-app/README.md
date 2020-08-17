@@ -18,10 +18,28 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md). Also check out [@froko/ng-essentials](https://www.npmjs.com/package/@froko/ng-essentials).
+
+## Steps to reproduce
+
+Here are the commands and tweaks used to create the application
+
+1. Create a new application
+
+   `ng new companion-app --prefix=bbv --routing=false --style=css`
+
+2. Add [@froko/ng-essentials](https://www.npmjs.com/package/@froko/ng-essentials)
+
+   `ng add @froko/ng-essentials`
+
+3. Add [@angular/material](https://material.angular.io/)
+
+   `ng add @angular/material`
+
+   (Style [Indigo/Pink] | Typography [Yes] | Browser Animations [Yes])
+
+4. Add [@angular/flex-layout](https://github.com/angular/flex-layout/#angular-flex-layout)
+
+   `npm install @angular/flex-layout -s`
