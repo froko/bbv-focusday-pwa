@@ -1,0 +1,12 @@
+<mat-card *ngIf="content$ | async as content">
+  <mat-card-header>
+    <mat-card-title>{{ content.title }}</mat-card-title>
+    <mat-card-subtitle>{{ speakers(content) }}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <p [innerHTML]="content.description"></p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button routerLink="/schedule" mat-button>Zurück zum Program</button>
+  </mat-card-actions>
+</mat-card>

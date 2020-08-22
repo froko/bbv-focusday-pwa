@@ -8,6 +8,7 @@ import { ENV_PROVIDERS } from '../environments/environment';
 
 import { AppComponent } from './app.component';
 import { BoardComponent } from './board/board.component';
+import { ContentModule } from './content/content.module';
 import { MaterialModule } from './material.module';
 
 const routes: Routes = [
@@ -17,7 +18,14 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [AppComponent, BoardComponent],
-  imports: [BrowserModule, BrowserAnimationsModule, RouterModule.forRoot(routes), FlexLayoutModule, MaterialModule],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    RouterModule.forRoot(routes),
+    FlexLayoutModule,
+    MaterialModule,
+    ContentModule
+  ],
   providers: [ENV_PROVIDERS],
   bootstrap: [AppComponent]
 })

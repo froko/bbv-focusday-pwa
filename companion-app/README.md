@@ -47,3 +47,13 @@ Here are the commands and tweaks used to create the application
 5. Add Board component
 
    `ng generate component board --module app`
+
+6. Add Content feature module
+
+   `ng generate module content`
+
+   `ng generate component content`
+
+   `ng generate component content/list`
+
+   `ng generate service content/content`
