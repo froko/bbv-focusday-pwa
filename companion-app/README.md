@@ -43,3 +43,7 @@ Here are the commands and tweaks used to create the application
 4. Add [@angular/flex-layout](https://github.com/angular/flex-layout/#angular-flex-layout)
 
    `npm install @angular/flex-layout -s`
+
+5. Add Board component
+
+   `ng generate component board --module app`
