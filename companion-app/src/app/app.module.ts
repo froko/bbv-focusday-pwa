@@ -3,8 +3,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule, Routes } from '@angular/router';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
-import { ENV_PROVIDERS } from '../environments/environment';
+import { environment, ENV_PROVIDERS } from '../environments/environment';
 
 import { AppComponent } from './app.component';
 import { BoardComponent } from './board/board.component';
@@ -26,7 +27,8 @@ const routes: Routes = [
     FlexLayoutModule,
     MaterialModule,
     ContentModule,
-    ScheduleModule
+    ScheduleModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [ENV_PROVIDERS],
   bootstrap: [AppComponent]

@@ -69,3 +69,7 @@ Here are the commands and tweaks used to create the application
    `ng generate component schedule/time-slot`
 
    `ng generate service schedule/schedule`
+
+8. Add PWA feature
+
+   `ng add @angular/pwa`
