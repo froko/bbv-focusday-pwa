@@ -1,0 +1,15 @@
+<div class="timeslot">
+  <div class="title">{{ timeSlot.slot }}</div>
+
+  <div fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="10px">
+    <mat-card *ngFor="let session of sessions$ | async" fxFlex="0 1 100%">
+      <mat-card-header>
+        <mat-card-title>{{ session.title }}</mat-card-title>
+        <mat-card-subtitle>{{ session.speakers }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-actions>
+        <button *ngIf="session.hasDescription" mat-button (click)="goToDetails(session)">DETAILS</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

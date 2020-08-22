@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { BoardComponent } from './board/board.component';
 import { ContentModule } from './content/content.module';
 import { MaterialModule } from './material.module';
+import { ScheduleModule } from './schedule/schedule.module';
 
 const routes: Routes = [
   { path: 'board', component: BoardComponent },
@@ -24,7 +25,8 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     FlexLayoutModule,
     MaterialModule,
-    ContentModule
+    ContentModule,
+    ScheduleModule
   ],
   providers: [ENV_PROVIDERS],
   bootstrap: [AppComponent]

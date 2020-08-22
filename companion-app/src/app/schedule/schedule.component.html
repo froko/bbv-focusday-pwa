@@ -1,0 +1,5 @@
+<h1>Programm</h1>
+<bbv-static-schedule></bbv-static-schedule>
+
+<h2>Sessions</h2>
+<bbv-time-slot *ngFor="let timeSlot of timeSlots$ | async" [time-slot]="timeSlot"></bbv-time-slot>

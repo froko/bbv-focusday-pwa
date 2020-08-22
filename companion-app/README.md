@@ -57,3 +57,15 @@ Here are the commands and tweaks used to create the application
    `ng generate component content/list`
 
    `ng generate service content/content`
+
+7. Add Schedule feature module
+
+   `ng generate module schedule`
+
+   `ng generate component schedule`
+
+   `ng generate component schedule/static-schedule`
+
+   `ng generate component schedule/time-slot`
+
+   `ng generate service schedule/schedule`
