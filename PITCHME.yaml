@@ -1,0 +1,5 @@
+logo: assets/bbv.png
+footnote: "bbv Focus Day (remote): Progressive Web Apps"
+theme: white
+theme-override: assets/custom.css
+remote-control: true
