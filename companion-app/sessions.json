@@ -1,0 +1,179 @@
+{
+  "sessions": [
+    {
+      "id": "advanced-analytics-und-machine-learning",
+      "title": "Advanced Analytics und Machine Learning",
+      "speakers": ["Stefan Häberlin", "Francesco Spadafora"],
+      "timeslot": "0945-1030",
+      "description": ""
+    },
+    {
+      "id": "apache-kafka",
+      "title": "CDC with Apache Kafka",
+      "speakers": ["Clemens Kunwald"],
+      "timeslot": "1400-1445",
+      "description": "Using CDC to Kafka for Real-Time Data Integration. Overview about Kafka with demo for CDC"
+    },
+    {
+      "id": "blazor-erstkontakt",
+      "title": "#Blazor Erstkontakt",
+      "speakers": ["Othmar Christen"],
+      "timeslot": "1500-1545",
+      "description": "Dieses Show&Tell zeigt eine mögliche Umsetzung der <a href=\"https://pm.bbv.ch/projekte\">https://pm.bbv.ch/projekte</a> mit Blazor. Es zeigt Themen wie:<br /><br /> - Erstellen von Blazor Component in einer Library und die Verwendeung in Blazor Server und Blazor Webassembly<br /> - Aufteilung von css-styles auf mehrere Dateien<br /> - Internaltionalisierung mit Blazor-Mitteln und i18n<br /> - Anzeigen von Markdown-Texten<br /> - Flux/Redux-StateMachine mit Fluxor"
+    },
+    {
+      "id": "blockchain",
+      "title": "Blockchain - The Very Basics",
+      "speakers": ["Raphael Meyer"],
+      "timeslot": "1300-1345",
+      "description": "Nowadays Blockchain is a buzzword that is virtually impossible to avoid. But only a few know how a block chain actually works. I will give a short introduction into the very basics of a block chain."
+    },
+    {
+      "id": "cloud-computing",
+      "title": "Cloud Computing",
+      "speakers": ["Gregory Bleiker"],
+      "timeslot": "0845-0930",
+      "description": "A short primer on cloud computing.<br><br>- How it evolved<br>- Key features of cloud solutions<br>- How does it compare and integrate with on-premise solutions<br>- Overview of big players<br>- Vendor lock-in<br>- Discussion<br><br>This session is targeted at people who have very limited knowledge about cloud computing and is more a tour d'horizon."
+    },
+    {
+      "id": "creative-problem-solving",
+      "title": "Creative problem solving",
+      "speakers": ["Martina Gartmann"],
+      "timeslot": "1300-1345",
+      "description": "In this slot, I would like to try out a tool how to find creative solutions to problems with the method \"Random word analysis\". After a short introduction about the topic we will try out the method together."
+    },
+    {
+      "id": "daily-struggles",
+      "title": "Uh fancy - ah wow - oh shit - i'll never get this - oh that's how it's meant to be used - #$@!&* (untranslatable swear word) - YEAH!; daily struggles of a software engineer",
+      "speakers": ["Marco Ravicini"],
+      "timeslot": "1300-1345",
+      "description": "Did you ever had thoughts like:<br/ ><br /> - What are these developers doing over there?<br /> - How does it feel like developing software?<br /><br /> I like to go through some of the struggles we as developer face on a regular basis, and let them feel yourself. (A bit at least - I'm not deeply sadistic - to people who did not choose this profession)<br /><br />  Maybe after this session:<br /><br />  - As a developer you'll get to know the struggles and see some of the things happening in your daily life from a different angle<br /> - As a non-developer you'll be able to bring up some empathy for all louder monologues in the other room."
+    },
+    {
+      "id": "device-connectivity",
+      "title": "Device Connectivity",
+      "speakers": ["Silvan Wegmann"],
+      "timeslot": "1045-1130",
+      "description": "Man würde denken, ein \"Device\" an die Cloud an zu schliessen, bestünde einfach darin, das Netzwerkkabel korrekt einzustecken oder die richtigen Wifi-Settings vorzunehmen. In dieser Session zeige ich euch, wieso auch Device-Provisioning, Software-Updates, Protokoll-Design und andere Themen sehr wichtig sind."
+    },
+    {
+      "id": "edge-computing",
+      "title": "Edge Computing",
+      "speakers": ["Oliver Christen"],
+      "timeslot": "0845-0930",
+      "description": ""
+    },
+    {
+      "id": "google-or-tools",
+      "title": "Google OR Tools",
+      "speakers": ["Stefan Wermelinger", "Adrian Krummenacher"],
+      "timeslot": "1300-1345",
+      "description": "What are the Google OR Tools and how are they used in our current product development."
+    },
+    {
+      "id": "improvisation",
+      "title": "Stay cool with improvisation",
+      "speakers": ["Philipp Hofstetter"],
+      "timeslot": "1400-1445",
+      "description": "Master situations where something unforeseen happens with an improvisation technique. Improvisation helps you to come back to your comfort zone and deal best with difficult unforeseen situations."
+    },
+    {
+      "id": "internet-of-things",
+      "title": "Internet of Things",
+      "speakers": ["Alexander Beck"],
+      "timeslot": "0945-1030",
+      "description": ""
+    },
+    {
+      "id": "keynote",
+      "title": "Begrüssung, Organisatorisches, Vorstellung Technica Forecast",
+      "speakers": ["Philipp Kronenberg", "Marco Ravicini"],
+      "timeslot": "0800-0830",
+      "description": ""
+    },
+    {
+      "id": "",
+      "title": "",
+      "speakers": [""],
+      "timeslot": "",
+      "description": ""
+    },
+    {
+      "id": "no-estimate-applied",
+      "title": "#NoEstimates applied",
+      "speakers": ["Dominik Berner"],
+      "timeslot": "1500-1545",
+      "description": "How we ran the haag streit project without estimating a single story while still forecasting project progress to the clients (and our) satisfaction. After a short overview how we did it we will have time to discuss how this might apply to your team. ..."
+    },
+    {
+      "id": "product-life-cycle-based-development",
+      "title": "Product life cycle based development",
+      "speakers": ["Dominik Berner"],
+      "timeslot": "0845-0930",
+      "description": ""
+    },
+    {
+      "id": "progressive-web-apps",
+      "title": "Progressive Web Apps",
+      "speakers": ["Patrick Ineichen"],
+      "timeslot": "1045-1130",
+      "description": "Cross platform support is one of the software features which has been around for a very long time but really has emerged in the last few years and is requested increasingly by our customers. Web technologies seem to be a good approach and Progressive Web Apps (PWAs) can enrich them even more so that web apps even become native apps on mobile and desktop devices. In my course you’ll learn about PWAs, their advantages and disadvantages, the technology behind and we even build our own Focus Day Companion app!"
+    },
+    {
+      "id": "projektmanagement",
+      "title": "Projektmanagement professionalisieren",
+      "speakers": ["Thomas Schenkel"],
+      "timeslot": "1400-1445",
+      "description": "Wir möchten euch aufzeigen, wie wir uns seit dem Restart der PM Community im Sommer 2019 organisieren, mit dem Thema Professionalisierung auseinandersetzen, was wir bisher erreicht haben und wie wir das Ganze in die bbv tragen wollen."
+    },
+    {
+      "id": "reflection-on-your-team-role",
+      "title": "Reflection on your team role",
+      "speakers": ["Martina Gartmann"],
+      "timeslot": "1400-1445",
+      "description": "In this article, I would like to show possibilities of a team analysis and after a short introduction about successful teams, I would like to practice in an exercise to put oneself in different team types. As a preliminary work, please get your team role (Belblin Test). What the types mean will be explained in the session. <a href=\"https://www.weiss-entwicklung.ch/wp-content/uploads/2018/07/Belbin-Teamrollen.pdf\">https://www.weiss-entwicklung.ch/wp-content/uploads/2018/07/Belbin-Teamrollen.pdf</a> (at the moment only in german)."
+    },
+    {
+      "id": "secure-boot-on-linux",
+      "title": "Secure Boot on Linux",
+      "speakers": ["Christian Fischer"],
+      "timeslot": "1500-1545",
+      "description": ""
+    },
+    {
+      "id": "security",
+      "title": "serverless-archtectures",
+      "speakers": ["Jan Moser"],
+      "timeslot": "0945-1030",
+      "description": ""
+    },
+    {
+      "id": "service-design",
+      "title": "Service Design",
+      "speakers": ["Harald Beer"],
+      "timeslot": "0845-0930",
+      "description": ""
+    },
+    {
+      "id": "shortening-feedback-loop",
+      "title": "Shortening the Feedback Loop for Qt GUI Applications",
+      "speakers": ["Christian Hitz"],
+      "timeslot": "1400-1445",
+      "description": "Especially for GUI Applications a short feedback loop with the customer is imperative. I will show how we have implemented a Browser based review tool for the HB-THERM project."
+    },
+    {
+      "id": "software-modernisation",
+      "title": "Software Modernisation",
+      "speakers": ["Marco Ravicini"],
+      "timeslot": "0945-1030",
+      "description": "Software Modernisierung bietet ein enormes Potential: von der Steigerung der Performance, der Verbesserung der Sicherheit und Qualität bis zur Entwicklung neuer Geschäftsideen. Und mit neuen Methoden erhalten Sie die Möglichkeiten, Geschäftsprozesse deutlich effizienter zu gestalten. In den Academy-Kursen lernen Sie, die Erwartungen von Business und Benutzern zu identifizieren und Verbesserungen einzuleiten, so dass die kontinuierliche Anpassung funktioniert.<br>Dies ist eine kleine Einführung in:<br><br>- Treiber der Software Modernisierung,<br>- was Moderne Software ist,<br>- was für ein Evolvierbares Produkt alles notwenig ist,<br>- wie auf technischer Seite vorgegangen werden könnte,<br>- was war in der Software Modernisierung Academy lernen."
+    },
+    {
+      "id": "vertical-coding",
+      "title": "Vertical Coding",
+      "speakers": ["David Christen"],
+      "timeslot": "1500-1545",
+      "description": "As developers we read lots of code day in day out. In this session I will show why we should style code vertically."
+    }
+  ]
+}
